@@ -1,7 +1,7 @@
-"""detector_6598fc - Resource manager."""
+"""detector_267f57 - Resource manager."""
 from contextlib import contextmanager
 import time, json
-RESOURCE_ID = "detector_6598fc"
+RESOURCE_ID = "detector_267f57"
 @contextmanager
 def managed_resource(name: str):
     start = time.time()
