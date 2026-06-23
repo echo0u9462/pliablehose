@@ -1,4 +1,4 @@
-# detector-267f57
+# detector-5c999b
 
 A Python detector utility.
 
